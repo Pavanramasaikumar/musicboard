@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.board{
+    width: 100%;
+    height: 100%;
+    background-image: url("/sources/images/m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner{
+    width: auto;
+    height: 70%;
+    padding: 50px;
+    margin-top: 40px;
+    background-color:transparent;
+    box-shadow: 0 0 10px white,
+                0 0 10px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 20px;
+}
+.header h1{
+    margin: 20px;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.compo{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.compo .btn{
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.5);
+    font-weight: bold;
+}
+.compo #b1{
+    background-color: aqua;
+}
+.compo #b2{
+    background-color: green;
+}
+.compo #b3{
+    background-color: red;
+}
+.compo #b4{
+    background-color: violet;
+}
+.compo #b5{
+    background-color: sienna;
+}
+.compo #b6{
+    background-color: royalblue;
+}
+.compo #b7{
+    background-color: yellow;
+}
+.compo #b8{
+    background-color: darkgray;
+}
+.compo #b9{
+    background-color: pink;
+}
+
+.compo button1:active{
+    box-shadow: 0 0 30px aqua;
+    background-color: white;
+}
+.compo button2:active{
+    box-shadow: 0 0 30px green;
+    background-color: white;
+}
+.compo button3:active{
+    box-shadow: 0 0 30px red;
+    background-color:white;
+}
+.compo button4:active{
+    box-shadow: 0 0 30px violet;
+    background-color: white;
+}
+.compo button5:active{
+    box-shadow: 0 0 30px sienna;
+    background-color: white;
+}
+.compo button6:active{
+    box-shadow: 0 0 30px royalblue;
+    background-color: white;
+}
+.compo button7:active{
+    box-shadow: 0 0 30px yellow;
+    background-color: white;
+}
+.compo button8:active{
+    box-shadow: 0 0 30px darkgray;
+    background-color: white;
+}
+.compo button9:active{
+    box-shadow: 0 0 30px pink;
+    background-color:white;
+}
