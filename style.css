@@ -9,7 +9,7 @@ body,html{
 .board{
     width: 100%;
     height: 100%;
-    background-image: url("https://th.bing.com/th/id/R.03992495e7864fa4df13c4d420eb291d?rik=1Goi1CIt%2fpXZnw&riu=http%3a%2f%2fwww.hdwallpaperspulse.com%2fwp-content%2fuploads%2f2017%2f12%2f23%2fbeautiful-hd-widescreen-image.jpg&ehk=2qOe9hCSlllAqFdbmc3iB5rE3%2buZSRF0o%2bsjV7BEn2s%3d&risl=&pid=ImgRaw&r=0");
+    background-image: url("https://wallpapercave.com/wp/jaqkcSk.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,17 +23,19 @@ body,html{
     padding: 50px;
     margin-top: 40px;
     background-color:transparent;
-    box-shadow: 0 0 10px white,
-                0 0 10px white;
+    box-shadow: 0 0 10px black,
+                0 0 10px black;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px 20px;
 }
 .header h1{
+    font-size: 2rem;
     margin: 20px;
     text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
 }
 .compo{
     margin-top: 30px;
@@ -48,33 +50,62 @@ body,html{
     background-color: antiquewhite;
     box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.5);
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .compo #b1{
-    background-color: aqua;
+    background-image: url("m3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b2{
-    background-color: green;
+    background-image: url("m4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b3{
-    background-color: red;
+    background-image:url("m9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b4{
-    background-color: violet;
+    background-image: url("m1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b5{
-    background-color: sienna;
+    background-image: url("m8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b6{
-    background-color: royalblue;
+    background-image: url("m6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b7{
-    background-color: yellow;
+    background-image: url("m7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b8{
-    background-color: darkgray;
+    background-image: url("m2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .compo #b9{
-    background-color: pink;
+    background-image: url("m5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .compo button1:active{
@@ -112,4 +143,49 @@ body,html{
 .compo button9:active{
     box-shadow: 0 0 30px pink;
     background-color:white;
+}
+.compo button1:hover{
+    box-shadow: 0 0 30px aqua;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button2:hover{
+    box-shadow: 0 0 30px green;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button3:hover{
+    box-shadow: 0 0 30px red;
+    background-color:white;
+    transform: scale(1.05);
+}
+.compo button4:hover{
+    box-shadow: 0 0 30px violet;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button5:hover{
+    box-shadow: 0 0 30px sienna;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button6:hover{
+    box-shadow: 0 0 30px royalblue;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button7:hover{
+    box-shadow: 0 0 30px yellow;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button8:hover{
+    box-shadow: 0 0 30px black;
+    background-color: white;
+    transform: scale(1.05);
+}
+.compo button9:hover{
+    box-shadow: 0 0 30px pink;
+    background-color:white;
+    transform: scale(1.05);
 }
