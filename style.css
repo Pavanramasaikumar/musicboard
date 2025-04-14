@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body,html{
     height: 100%;
     width: 100%;
+    font-family: Arial, sans-serif;
 }
 .board{
     width: 100%;
@@ -188,4 +190,23 @@ body,html{
     box-shadow: 0 0 30px pink;
     background-color:white;
     transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .compo .btn {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.2rem;
+    }
+    .compo .btn {
+        padding: 20px;
+        font-size: 0.9rem;
+    }
 }
